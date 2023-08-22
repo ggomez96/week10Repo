@@ -26,6 +26,8 @@ function deleteRefresh(event) {
 }
 
 /*Tried getting value added to th table instead of undefined but couldnt figure it out..
-,tried changing newElement innerHTML to document.getElementById('textbox').value but didnt work*/
+,tried changing newElement innerHTML to document.getElementById('textbox').value but didnt work
+doesn't work if changed to ${textBox.value()};
+didnt work assigning the textBox value to a new variable then passing to innerHTML*/
 
 
